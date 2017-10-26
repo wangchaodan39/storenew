@@ -1,19 +1,19 @@
 package com.wang.web.servlet;
 
+
 import javax.servlet.ServletException;
-import javax.servlet.ServletRequest;
-import javax.servlet.ServletResponse;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+
 import java.io.IOException;
 
 public class UserServlet extends BaseServlet {
 
 
-    @Override
-    public String index(ServletRequest request, ServletResponse response) throws ServletException, IOException {
 
-        return "/jsp/register.jsp";
+
+     //跳转到注册页面
+    public String registUI(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws ServletException, IOException {
+
+
+        return  "/jsp/register.jsp";
     }
 }

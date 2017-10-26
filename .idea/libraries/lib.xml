@@ -11,6 +11,7 @@
       <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/jstl.jar!/" />
       <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/standard.jar!/" />
       <root url="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-fileupload-1.2.1.jar!/" />
+      <root url="jar://D:/tomcat/apache-tomcat-7.0.82/lib/servlet-api.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
